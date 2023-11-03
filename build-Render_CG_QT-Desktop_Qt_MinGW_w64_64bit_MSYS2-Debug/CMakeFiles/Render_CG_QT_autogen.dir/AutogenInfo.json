@@ -80,6 +80,12 @@
 			null
 		],
 		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/geometry.h",
+			"MU",
+			"UVLADIE3JM/moc_geometry.cpp",
+			null
+		],
+		[
 			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.h",
 			"MU",
 			"UVLADIE3JM/moc_line.cpp",
@@ -89,6 +95,18 @@
 			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/mainwindow.h",
 			"MU",
 			"UVLADIE3JM/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/model.h",
+			"MU",
+			"UVLADIE3JM/moc_model.cpp",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/render.h",
+			"MU",
+			"UVLADIE3JM/moc_render.cpp",
 			null
 		],
 		[
@@ -167,6 +185,16 @@
 		],
 		[
 			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/model.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/render.cpp",
 			"MU",
 			null
 		],

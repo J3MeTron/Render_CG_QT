@@ -120,6 +120,9 @@
 		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/drawable.h">
 			<Option target="Render_CG_QT"/>
 		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/geometry.h">
+			<Option target="Render_CG_QT"/>
+		</Unit>
 		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.cpp">
 			<Option target="Render_CG_QT"/>
 		</Unit>
@@ -133,6 +136,18 @@
 			<Option target="Render_CG_QT"/>
 		</Unit>
 		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/mainwindow.h">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/model.cpp">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/model.h">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/render.cpp">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/render.h">
 			<Option target="Render_CG_QT"/>
 		</Unit>
 		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.cpp">

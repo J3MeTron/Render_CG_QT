@@ -106,6 +106,8 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/c++/10.1.0/bits/allocator.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/atomic_base.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/atomic_lockfree_defines.h \
+  C:/msys64/mingw64/include/c++/10.1.0/bits/basic_ios.h \
+  C:/msys64/mingw64/include/c++/10.1.0/bits/basic_ios.tcc \
   C:/msys64/mingw64/include/c++/10.1.0/bits/basic_string.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/basic_string.tcc \
   C:/msys64/mingw64/include/c++/10.1.0/bits/c++0x_warning.h \
@@ -126,15 +128,19 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/c++/10.1.0/bits/int_limits.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/invoke.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/ios_base.h \
+  C:/msys64/mingw64/include/c++/10.1.0/bits/istream.tcc \
   C:/msys64/mingw64/include/c++/10.1.0/bits/iterator_concepts.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/list.tcc \
   C:/msys64/mingw64/include/c++/10.1.0/bits/locale_classes.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/locale_classes.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/bits/locale_facets.h \
+  C:/msys64/mingw64/include/c++/10.1.0/bits/locale_facets.tcc \
   C:/msys64/mingw64/include/c++/10.1.0/bits/localefwd.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/memoryfwd.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/move.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/nested_exception.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/node_handle.h \
+  C:/msys64/mingw64/include/c++/10.1.0/bits/ostream.tcc \
   C:/msys64/mingw64/include/c++/10.1.0/bits/ostream_insert.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/postypes.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/predefined_ops.h \
@@ -148,6 +154,7 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/c++/10.1.0/bits/shared_ptr.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/shared_ptr_atomic.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/shared_ptr_base.h \
+  C:/msys64/mingw64/include/c++/10.1.0/bits/specfun.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/std_abs.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/std_function.h \
   C:/msys64/mingw64/include/c++/10.1.0/bits/stl_algo.h \
@@ -181,12 +188,14 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/c++/10.1.0/bits/vector.tcc \
   C:/msys64/mingw64/include/c++/10.1.0/cctype \
   C:/msys64/mingw64/include/c++/10.1.0/clocale \
+  C:/msys64/mingw64/include/c++/10.1.0/cmath \
   C:/msys64/mingw64/include/c++/10.1.0/compare \
   C:/msys64/mingw64/include/c++/10.1.0/concepts \
   C:/msys64/mingw64/include/c++/10.1.0/cstddef \
   C:/msys64/mingw64/include/c++/10.1.0/cstdint \
   C:/msys64/mingw64/include/c++/10.1.0/cstdlib \
   C:/msys64/mingw64/include/c++/10.1.0/cwchar \
+  C:/msys64/mingw64/include/c++/10.1.0/cwctype \
   C:/msys64/mingw64/include/c++/10.1.0/debug/assertions.h \
   C:/msys64/mingw64/include/c++/10.1.0/debug/debug.h \
   C:/msys64/mingw64/include/c++/10.1.0/exception \
@@ -200,7 +209,10 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/c++/10.1.0/ext/type_traits.h \
   C:/msys64/mingw64/include/c++/10.1.0/functional \
   C:/msys64/mingw64/include/c++/10.1.0/initializer_list \
+  C:/msys64/mingw64/include/c++/10.1.0/ios \
   C:/msys64/mingw64/include/c++/10.1.0/iosfwd \
+  C:/msys64/mingw64/include/c++/10.1.0/iostream \
+  C:/msys64/mingw64/include/c++/10.1.0/istream \
   C:/msys64/mingw64/include/c++/10.1.0/iterator \
   C:/msys64/mingw64/include/c++/10.1.0/limits \
   C:/msys64/mingw64/include/c++/10.1.0/list \
@@ -209,6 +221,7 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/c++/10.1.0/new \
   C:/msys64/mingw64/include/c++/10.1.0/numeric \
   C:/msys64/mingw64/include/c++/10.1.0/optional \
+  C:/msys64/mingw64/include/c++/10.1.0/ostream \
   C:/msys64/mingw64/include/c++/10.1.0/pstl/execution_defs.h \
   C:/msys64/mingw64/include/c++/10.1.0/pstl/glue_algorithm_defs.h \
   C:/msys64/mingw64/include/c++/10.1.0/pstl/glue_memory_defs.h \
@@ -219,6 +232,18 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/c++/10.1.0/streambuf \
   C:/msys64/mingw64/include/c++/10.1.0/string \
   C:/msys64/mingw64/include/c++/10.1.0/string_view \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/bessel_function.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/beta_function.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/ell_integral.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/exp_integral.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/gamma.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/hypergeometric.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/legendre_function.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/modified_bessel_func.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/poly_hermite.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/poly_laguerre.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/riemann_zeta.tcc \
+  C:/msys64/mingw64/include/c++/10.1.0/tr1/special_function_util.h \
   C:/msys64/mingw64/include/c++/10.1.0/tuple \
   C:/msys64/mingw64/include/c++/10.1.0/type_traits \
   C:/msys64/mingw64/include/c++/10.1.0/typeinfo \
@@ -230,6 +255,8 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/c++config.h \
   C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/c++locale.h \
   C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
   C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/gthr.h \
   C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -270,5 +297,9 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/x86_64-w64-mingw32/include/sys/types.h \
   C:/msys64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/msys64/mingw64/x86_64-w64-mingw32/include/wchar.h \
+  C:/msys64/mingw64/x86_64-w64-mingw32/include/wctype.h \
   D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/drawable.h \
-  D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.h
+  D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/geometry.h \
+  D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.h \
+  D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/model.h \
+  D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/render.h

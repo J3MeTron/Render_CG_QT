@@ -261,6 +261,54 @@ src/mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/mainwindow.cpp.s
 .PHONY : src/mainwindow.cpp.s
 
+src/model.obj: src/model.cpp.obj
+.PHONY : src/model.obj
+
+# target to build an object file
+src/model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/model.cpp.obj
+.PHONY : src/model.cpp.obj
+
+src/model.i: src/model.cpp.i
+.PHONY : src/model.i
+
+# target to preprocess a source file
+src/model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/model.cpp.i
+.PHONY : src/model.cpp.i
+
+src/model.s: src/model.cpp.s
+.PHONY : src/model.s
+
+# target to generate assembly for a file
+src/model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/model.cpp.s
+.PHONY : src/model.cpp.s
+
+src/render.obj: src/render.cpp.obj
+.PHONY : src/render.obj
+
+# target to build an object file
+src/render.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/render.cpp.obj
+.PHONY : src/render.cpp.obj
+
+src/render.i: src/render.cpp.i
+.PHONY : src/render.i
+
+# target to preprocess a source file
+src/render.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/render.cpp.i
+.PHONY : src/render.cpp.i
+
+src/render.s: src/render.cpp.s
+.PHONY : src/render.s
+
+# target to generate assembly for a file
+src/render.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/render.cpp.s
+.PHONY : src/render.cpp.s
+
 src/widget.obj: src/widget.cpp.obj
 .PHONY : src/widget.obj
 
@@ -310,6 +358,12 @@ help:
 	@echo ... src/mainwindow.obj
 	@echo ... src/mainwindow.i
 	@echo ... src/mainwindow.s
+	@echo ... src/model.obj
+	@echo ... src/model.i
+	@echo ... src/model.s
+	@echo ... src/render.obj
+	@echo ... src/render.i
+	@echo ... src/render.s
 	@echo ... src/widget.obj
 	@echo ... src/widget.i
 	@echo ... src/widget.s

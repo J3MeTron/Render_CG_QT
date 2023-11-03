@@ -283,4 +283,23 @@ CMakeFiles/Render_CG_QT.dir/Render_CG_QT_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/QtGui/qpainterpath.h \
  C:/msys64/mingw64/include/QtGui/QPainter \
  C:/msys64/mingw64/include/QtGui/qpainter.h \
- C:/msys64/mingw64/include/QtGui/qtextoption.h
+ C:/msys64/mingw64/include/QtGui/qtextoption.h \
+ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/model.h \
+ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/geometry.h \
+ C:/msys64/mingw64/include/c++/10.1.0/cmath \
+ C:/msys64/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/msys64/mingw64/include/c++/10.1.0/iostream \
+ C:/msys64/mingw64/include/c++/10.1.0/ostream \
+ C:/msys64/mingw64/include/c++/10.1.0/ios \
+ C:/msys64/mingw64/include/c++/10.1.0/bits/basic_ios.h \
+ C:/msys64/mingw64/include/c++/10.1.0/bits/locale_facets.h \
+ C:/msys64/mingw64/include/c++/10.1.0/cwctype \
+ C:/msys64/mingw64/x86_64-w64-mingw32/include/wctype.h \
+ C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/msys64/mingw64/include/c++/10.1.0/bits/locale_facets.tcc \
+ C:/msys64/mingw64/include/c++/10.1.0/bits/basic_ios.tcc \
+ C:/msys64/mingw64/include/c++/10.1.0/bits/ostream.tcc \
+ C:/msys64/mingw64/include/c++/10.1.0/istream \
+ C:/msys64/mingw64/include/c++/10.1.0/bits/istream.tcc \
+ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/render.h
