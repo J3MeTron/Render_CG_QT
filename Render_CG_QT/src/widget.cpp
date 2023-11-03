@@ -15,7 +15,7 @@ Widget::Widget(QWidget *parent) :
 
     scene = new QGraphicsScene();
 
-    line = new Line(QPoint(0,0), QPoint (-100,-100), QColor (255, 0, 0));
+    line = new Line(0, 0, 200, 200, QColor (255, 0, 0));
 
     ui->graphicsView->setScene(scene);  // Устанавливаем графическую сцену в graphicsView
     ui->graphicsView->setRenderHint(QPainter::Antialiasing);    // Устанавливаем сглаживание

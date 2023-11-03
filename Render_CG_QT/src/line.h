@@ -7,11 +7,14 @@
 class Line : public Drawable
 {
 public:
-    Line(QPoint p1, QPoint p2, QColor color);
+    Line(int x0, int y0, int x1, int y1, QColor color);
     ~Line();
 private:
-    QPoint p1;
-    QPoint p2;
+    int x0;
+    int y0;
+    int x1;
+    int y1;
+
     QColor color;
 
 protected:

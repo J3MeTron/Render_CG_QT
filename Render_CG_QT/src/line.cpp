@@ -1,8 +1,10 @@
 #include "line.h"
 
-Line::Line(QPoint p1,QPoint p2, QColor color):
-                                              p1(p1),
-                                              p2(p2),
+Line::Line(int x0, int y0, int x1, int y1, QColor color):
+                                              x0(x0),
+                                              y0(y0),
+                                              x1(x1),
+                                              y1(y1),
                                               color(color)
 {
 
@@ -21,13 +23,39 @@ QRectF Line::boundingRect() const
 
 void Line::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
-    for(float t=0.; t<1.; t+=.01){
-        int x = p1.rx()*(1.-t) + p1.rx()*t;
-        int y = p1.ry()*(1.-t) + p2.ry()*t;
-        painter->setPen(color);
-        painter->drawPoint(x,y);
+    bool steep = false;
+    if (std::abs(x0-x1)<std::abs(y0-y1)) {
+        std::swap(x0, y0);
+        std::swap(x1, y1);
+        steep = true;
     }
+    if (x0>x1) {
+        std::swap(x0, x1);
+        std::swap(y0, y1);
+    }
+    int dx = x1-x0;
+    int dy = y1-y0;
+    int derror2 = std::abs(dy)*2;
+    int error2 = 0;
+    int y = y0;
+    for (int x=x0; x<=x1; x++) {
+        if (steep) {
+            painter->setPen(color);
+            painter->drawPoint(x,y);
+        } else {
+            painter->setPen(color);
+            painter->drawPoint(x,y);
+        }
+        error2 += derror2;
 
+        if (error2 > dx) {
+            y += (y1>y0?1:-1);
+            error2 -= dx*2;
+        }
+    }
+    Q_UNUSED(option);
+    Q_UNUSED(widget);
 }
+
 
 
