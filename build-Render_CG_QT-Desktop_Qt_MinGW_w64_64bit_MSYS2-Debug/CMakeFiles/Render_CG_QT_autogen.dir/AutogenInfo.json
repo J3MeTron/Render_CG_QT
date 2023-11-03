@@ -1,0 +1,184 @@
+{
+	"BUILD_DIR" : "D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/CMakeLists.txt",
+		"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/3.27.4/CMakeSystem.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake",
+		"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/3.27.4/CMakeCXXCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeFindCodeBlocks.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/ProcessorCount.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake",
+		"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/3.27.4/CMakeRCCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeRCInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-windres.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5/Qt5Config.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeParseArguments.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeParseArguments.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/drawable.h",
+			"MU",
+			"UVLADIE3JM/moc_drawable.cpp",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.h",
+			"MU",
+			"UVLADIE3JM/moc_line.cpp",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/mainwindow.h",
+			"MU",
+			"UVLADIE3JM/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.h",
+			"MU",
+			"UVLADIE3JM/moc_widget.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug",
+		"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT",
+		"C:/msys64/mingw64/include/QtWidgets",
+		"C:/msys64/mingw64/include/QtGui",
+		"C:/msys64/mingw64/include/QtCore",
+		"C:/msys64/mingw64/share/qt5/mkspecs/win32-g++",
+		"C:/msys64/mingw64/include",
+		"C:/msys64/mingw64/include/c++/10.1.0",
+		"C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32",
+		"C:/msys64/mingw64/include/c++/10.1.0/backward",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.1.0/include",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed",
+		"C:/msys64/mingw64/x86_64-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/msys64/mingw64/bin/g++.exe",
+		"-std=gnu++11",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/Render_CG_QT_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/msys64/mingw64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/msys64/mingw64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/Render_CG_QT_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/drawable.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

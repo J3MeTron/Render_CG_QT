@@ -26,20 +26,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
+file(GLOB SOURCES_SRC "src/*.cpp" "src/*.h")
+
 if(ANDROID)
-  add_library(Render_CG_QT SHARED
-    main.cpp
-    mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui
-  )
+  add_library(Render_CG_QT SHARED ${SOURCES_SRC})
 else()
-  add_executable(Render_CG_QT
-    main.cpp
-    mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui
-  )
+  add_executable(Render_CG_QT ${SOURCES_SRC})
+
 endif()
 
 target_link_libraries(Render_CG_QT PRIVATE Qt5::Widgets)

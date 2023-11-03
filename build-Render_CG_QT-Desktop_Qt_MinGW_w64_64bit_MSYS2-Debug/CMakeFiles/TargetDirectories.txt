@@ -1,0 +1,4 @@
+D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/Render_CG_QT.dir
+D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/edit_cache.dir
+D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/rebuild_cache.dir
+D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/Render_CG_QT_autogen.dir

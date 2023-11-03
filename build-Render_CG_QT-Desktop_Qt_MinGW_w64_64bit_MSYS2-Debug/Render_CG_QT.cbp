@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Render_CG_QT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\msys64\;CMake Files\msys64\mingw64\;CMake Files\msys64\mingw64\lib\;CMake Files\msys64\mingw64\lib\cmake\;CMake Files\msys64\mingw64\lib\cmake\Qt5\;CMake Files\msys64\mingw64\lib\cmake\Qt5Widgets\;CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\;CMake Files\msys64\mingw64\lib\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Render_CG_QT">
+				<Option output="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"/>
+					<Add directory="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT"/>
+					<Add directory="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT_autogen/include"/>
+					<Add directory="C:/msys64/mingw64/include"/>
+					<Add directory="C:/msys64/mingw64/include/QtWidgets"/>
+					<Add directory="C:/msys64/mingw64/include/QtGui"/>
+					<Add directory="C:/msys64/mingw64/include/QtCore"/>
+					<Add directory="C:/msys64/mingw64/share/qt5/mkspecs/win32-g++"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 Render_CG_QT"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Render_CG_QT/fast">
+				<Option output="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"/>
+					<Add directory="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT"/>
+					<Add directory="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT_autogen/include"/>
+					<Add directory="C:/msys64/mingw64/include"/>
+					<Add directory="C:/msys64/mingw64/include/QtWidgets"/>
+					<Add directory="C:/msys64/mingw64/include/QtGui"/>
+					<Add directory="C:/msys64/mingw64/include/QtCore"/>
+					<Add directory="C:/msys64/mingw64/share/qt5/mkspecs/win32-g++"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 Render_CG_QT/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Render_CG_QT_autogen">
+				<Option working_dir="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 Render_CG_QT_autogen"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/drawable.cpp">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/drawable.h">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.cpp">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.h">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/main.cpp">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/mainwindow.cpp">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/mainwindow.h">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.cpp">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.h">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT_autogen/mocs_compilation.cpp">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/msys64/mingw64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
