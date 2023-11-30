@@ -150,6 +150,12 @@
 		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/render.h">
 			<Option target="Render_CG_QT"/>
 		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/triangle.cpp">
+			<Option target="Render_CG_QT"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/triangle.h">
+			<Option target="Render_CG_QT"/>
+		</Unit>
 		<Unit filename="D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.cpp">
 			<Option target="Render_CG_QT"/>
 		</Unit>

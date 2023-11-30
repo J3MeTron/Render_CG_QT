@@ -309,6 +309,30 @@ src/render.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/render.cpp.s
 .PHONY : src/render.cpp.s
 
+src/triangle.obj: src/triangle.cpp.obj
+.PHONY : src/triangle.obj
+
+# target to build an object file
+src/triangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj
+.PHONY : src/triangle.cpp.obj
+
+src/triangle.i: src/triangle.cpp.i
+.PHONY : src/triangle.i
+
+# target to preprocess a source file
+src/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.i
+.PHONY : src/triangle.cpp.i
+
+src/triangle.s: src/triangle.cpp.s
+.PHONY : src/triangle.s
+
+# target to generate assembly for a file
+src/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Render_CG_QT.dir\build.make CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.s
+.PHONY : src/triangle.cpp.s
+
 src/widget.obj: src/widget.cpp.obj
 .PHONY : src/widget.obj
 
@@ -364,6 +388,9 @@ help:
 	@echo ... src/render.obj
 	@echo ... src/render.i
 	@echo ... src/render.s
+	@echo ... src/triangle.obj
+	@echo ... src/triangle.i
+	@echo ... src/triangle.s
 	@echo ... src/widget.obj
 	@echo ... src/widget.i
 	@echo ... src/widget.s

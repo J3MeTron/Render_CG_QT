@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Render_CG_QT.dir/src/model.cpp.obj.d"
   "CMakeFiles/Render_CG_QT.dir/src/render.cpp.obj"
   "CMakeFiles/Render_CG_QT.dir/src/render.cpp.obj.d"
+  "CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj"
+  "CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj.d"
   "CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj"
   "CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj.d"
   "CMakeFiles/Render_CG_QT_autogen.dir/AutogenUsed.txt"

@@ -266,12 +266,27 @@ CMakeFiles/Render_CG_QT.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/QGraphicsScene \
  C:/msys64/mingw64/include/QtWidgets/qgraphicsscene.h \
  C:/msys64/mingw64/include/QtGui/qpen.h \
+ C:/msys64/mingw64/include/QtCore/QCoreApplication \
+ C:/msys64/mingw64/include/QtCore/qcoreapplication.h \
+ C:/msys64/mingw64/include/QtCore/qcoreevent.h \
+ C:/msys64/mingw64/include/QtCore/qeventloop.h \
+ C:/msys64/mingw64/include/QtCore/QDir \
+ C:/msys64/mingw64/include/QtCore/qdir.h \
+ C:/msys64/mingw64/include/QtCore/qfileinfo.h \
+ C:/msys64/mingw64/include/QtCore/qfile.h \
+ C:/msys64/mingw64/include/QtCore/qfiledevice.h \
+ C:/msys64/mingw64/include/QtCore/QDebug \
+ C:/msys64/mingw64/include/QtCore/qdebug.h \
+ C:/msys64/mingw64/include/QtCore/qmap.h \
+ C:/msys64/mingw64/include/QtCore/qtextstream.h \
+ C:/msys64/mingw64/include/QtCore/qlocale.h \
+ C:/msys64/mingw64/include/QtCore/qvariant.h \
+ C:/msys64/mingw64/include/QtCore/qset.h \
+ C:/msys64/mingw64/include/QtCore/qcontiguouscache.h \
  D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.h \
  D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/drawable.h \
  C:/msys64/mingw64/include/QtWidgets/QGraphicsItem \
  C:/msys64/mingw64/include/QtWidgets/qgraphicsitem.h \
- C:/msys64/mingw64/include/QtCore/qvariant.h \
- C:/msys64/mingw64/include/QtCore/qmap.h \
  C:/msys64/mingw64/include/QtGui/qpainterpath.h \
  C:/msys64/mingw64/include/QtGui/QPainter \
  C:/msys64/mingw64/include/QtGui/qpainter.h \
@@ -298,8 +313,5 @@ CMakeFiles/Render_CG_QT.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/QApplication \
  C:/msys64/mingw64/include/QtWidgets/qapplication.h \
  C:/msys64/mingw64/include/QtCore/qcoreapplication.h \
- C:/msys64/mingw64/include/QtCore/qcoreevent.h \
- C:/msys64/mingw64/include/QtCore/qeventloop.h \
  C:/msys64/mingw64/include/QtGui/qguiapplication.h \
- C:/msys64/mingw64/include/QtGui/qinputmethod.h \
- C:/msys64/mingw64/include/QtCore/qlocale.h
+ C:/msys64/mingw64/include/QtGui/qinputmethod.h

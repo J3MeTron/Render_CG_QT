@@ -1,5 +1,8 @@
 D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT_autogen/UVLADIE3JM/moc_widget.cpp: D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.h \
   D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT_autogen/moc_predefs.h \
+  C:/msys64/mingw64/include/QtCore/QCoreApplication \
+  C:/msys64/mingw64/include/QtCore/QDebug \
+  C:/msys64/mingw64/include/QtCore/QDir \
   C:/msys64/mingw64/include/QtCore/qalgorithms.h \
   C:/msys64/mingw64/include/QtCore/qarraydata.h \
   C:/msys64/mingw64/include/QtCore/qatomic.h \
@@ -12,7 +15,16 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/QtCore/qconfig.h \
   C:/msys64/mingw64/include/QtCore/qcontainerfwd.h \
   C:/msys64/mingw64/include/QtCore/qcontainertools_impl.h \
+  C:/msys64/mingw64/include/QtCore/qcontiguouscache.h \
+  C:/msys64/mingw64/include/QtCore/qcoreapplication.h \
+  C:/msys64/mingw64/include/QtCore/qcoreevent.h \
   C:/msys64/mingw64/include/QtCore/qdatastream.h \
+  C:/msys64/mingw64/include/QtCore/qdebug.h \
+  C:/msys64/mingw64/include/QtCore/qdir.h \
+  C:/msys64/mingw64/include/QtCore/qeventloop.h \
+  C:/msys64/mingw64/include/QtCore/qfile.h \
+  C:/msys64/mingw64/include/QtCore/qfiledevice.h \
+  C:/msys64/mingw64/include/QtCore/qfileinfo.h \
   C:/msys64/mingw64/include/QtCore/qflags.h \
   C:/msys64/mingw64/include/QtCore/qgenericatomic.h \
   C:/msys64/mingw64/include/QtCore/qglobal.h \
@@ -23,6 +35,7 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/QtCore/qiterator.h \
   C:/msys64/mingw64/include/QtCore/qline.h \
   C:/msys64/mingw64/include/QtCore/qlist.h \
+  C:/msys64/mingw64/include/QtCore/qlocale.h \
   C:/msys64/mingw64/include/QtCore/qlogging.h \
   C:/msys64/mingw64/include/QtCore/qmap.h \
   C:/msys64/mingw64/include/QtCore/qmargins.h \
@@ -40,6 +53,7 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/QtCore/qrefcount.h \
   C:/msys64/mingw64/include/QtCore/qregexp.h \
   C:/msys64/mingw64/include/QtCore/qscopedpointer.h \
+  C:/msys64/mingw64/include/QtCore/qset.h \
   C:/msys64/mingw64/include/QtCore/qshareddata.h \
   C:/msys64/mingw64/include/QtCore/qsharedpointer.h \
   C:/msys64/mingw64/include/QtCore/qsharedpointer_impl.h \
@@ -53,6 +67,7 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_Min
   C:/msys64/mingw64/include/QtCore/qsysinfo.h \
   C:/msys64/mingw64/include/QtCore/qsystemdetection.h \
   C:/msys64/mingw64/include/QtCore/qtcore-config.h \
+  C:/msys64/mingw64/include/QtCore/qtextstream.h \
   C:/msys64/mingw64/include/QtCore/qtypeinfo.h \
   C:/msys64/mingw64/include/QtCore/qvariant.h \
   C:/msys64/mingw64/include/QtCore/qvarlengtharray.h \

@@ -265,8 +265,12 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/mainwindow.h
  mdp:C:/msys64/mingw64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/mainwindow.h
  mdp:D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/Render_CG_QT_autogen/moc_predefs.h
+D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/triangle.h
 D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.h
  mmc:Q_OBJECT
+ mdp:C:/msys64/mingw64/include/QtCore/QCoreApplication
+ mdp:C:/msys64/mingw64/include/QtCore/QDebug
+ mdp:C:/msys64/mingw64/include/QtCore/QDir
  mdp:C:/msys64/mingw64/include/QtCore/qalgorithms.h
  mdp:C:/msys64/mingw64/include/QtCore/qarraydata.h
  mdp:C:/msys64/mingw64/include/QtCore/qatomic.h
@@ -279,7 +283,16 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.h
  mdp:C:/msys64/mingw64/include/QtCore/qconfig.h
  mdp:C:/msys64/mingw64/include/QtCore/qcontainerfwd.h
  mdp:C:/msys64/mingw64/include/QtCore/qcontainertools_impl.h
+ mdp:C:/msys64/mingw64/include/QtCore/qcontiguouscache.h
+ mdp:C:/msys64/mingw64/include/QtCore/qcoreapplication.h
+ mdp:C:/msys64/mingw64/include/QtCore/qcoreevent.h
  mdp:C:/msys64/mingw64/include/QtCore/qdatastream.h
+ mdp:C:/msys64/mingw64/include/QtCore/qdebug.h
+ mdp:C:/msys64/mingw64/include/QtCore/qdir.h
+ mdp:C:/msys64/mingw64/include/QtCore/qeventloop.h
+ mdp:C:/msys64/mingw64/include/QtCore/qfile.h
+ mdp:C:/msys64/mingw64/include/QtCore/qfiledevice.h
+ mdp:C:/msys64/mingw64/include/QtCore/qfileinfo.h
  mdp:C:/msys64/mingw64/include/QtCore/qflags.h
  mdp:C:/msys64/mingw64/include/QtCore/qgenericatomic.h
  mdp:C:/msys64/mingw64/include/QtCore/qglobal.h
@@ -290,6 +303,7 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.h
  mdp:C:/msys64/mingw64/include/QtCore/qiterator.h
  mdp:C:/msys64/mingw64/include/QtCore/qline.h
  mdp:C:/msys64/mingw64/include/QtCore/qlist.h
+ mdp:C:/msys64/mingw64/include/QtCore/qlocale.h
  mdp:C:/msys64/mingw64/include/QtCore/qlogging.h
  mdp:C:/msys64/mingw64/include/QtCore/qmap.h
  mdp:C:/msys64/mingw64/include/QtCore/qmargins.h
@@ -307,6 +321,7 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.h
  mdp:C:/msys64/mingw64/include/QtCore/qrefcount.h
  mdp:C:/msys64/mingw64/include/QtCore/qregexp.h
  mdp:C:/msys64/mingw64/include/QtCore/qscopedpointer.h
+ mdp:C:/msys64/mingw64/include/QtCore/qset.h
  mdp:C:/msys64/mingw64/include/QtCore/qshareddata.h
  mdp:C:/msys64/mingw64/include/QtCore/qsharedpointer.h
  mdp:C:/msys64/mingw64/include/QtCore/qsharedpointer_impl.h
@@ -320,6 +335,7 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.h
  mdp:C:/msys64/mingw64/include/QtCore/qsysinfo.h
  mdp:C:/msys64/mingw64/include/QtCore/qsystemdetection.h
  mdp:C:/msys64/mingw64/include/QtCore/qtcore-config.h
+ mdp:C:/msys64/mingw64/include/QtCore/qtextstream.h
  mdp:C:/msys64/mingw64/include/QtCore/qtypeinfo.h
  mdp:C:/msys64/mingw64/include/QtCore/qvariant.h
  mdp:C:/msys64/mingw64/include/QtCore/qvarlengtharray.h
@@ -578,6 +594,7 @@ D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/mainwindow.cpp
 D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.h
 D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/drawable.h
 D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/line.cpp
+D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/triangle.cpp
 D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.cpp
  uic:ui_widget.h
 D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/drawable.cpp

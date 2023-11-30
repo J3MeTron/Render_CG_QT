@@ -16,6 +16,8 @@ public:
     ~Render();
 
     void rline(int x0, int y0, int x1, int y1, QColor color, QPainter *painter);
+    void rotateLeft();
+    void drawCoordinateSystem(QPainter *painter);
 
 private:
     const int absX;

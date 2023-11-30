@@ -3,6 +3,9 @@
 
 #include <QWidget>
 #include <QGraphicsScene>
+#include <QCoreApplication>
+#include <QDir>
+#include <QDebug>
 
 #include <src/line.h>
 #include <src/model.h>
