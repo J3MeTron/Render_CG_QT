@@ -110,12 +110,6 @@
 			null
 		],
 		[
-			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/triangle.h",
-			"MU",
-			"UVLADIE3JM/moc_triangle.cpp",
-			null
-		],
-		[
 			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.h",
 			"MU",
 			"UVLADIE3JM/moc_widget.cpp",
@@ -201,11 +195,6 @@
 		],
 		[
 			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/render.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/triangle.cpp",
 			"MU",
 			null
 		],

@@ -1,4 +1,5 @@
 #include "render.h"
+#include <cstdlib>
 
 Render::Render(const int absX, const int absY, Model *model): absX(absX),
                                                             absY(absY),
@@ -14,8 +15,10 @@ Render::~Render()
 
 QRectF Render::boundingRect() const
 {
-    return QRectF(-25,-40,50,80);
+    return QRectF(-25, -40, 50, 80);
 }
+
+
 
 void Render::rline(int x0, int y0, int x1, int y1, QColor color, QPainter *painter)
 {
@@ -52,6 +55,29 @@ void Render::rline(int x0, int y0, int x1, int y1, QColor color, QPainter *paint
     }
 }
 
+void Render::triangle(Vec2i t0, Vec2i t1, Vec2i t2, QColor color, QPainter *painter) {
+    if (t0.y == t1.y && t0.y == t2.y) return; // I don't care about degenerate triangles
+    if (t0.y > t1.y) std::swap(t0, t1);
+    if (t0.y > t2.y) std::swap(t0, t2);
+    if (t1.y > t2.y) std::swap(t1, t2);
+    int total_height = t2.y - t0.y;
+    for (int i = 0; i < total_height; i++) {
+        bool second_half = i > t1.y - t0.y || t1.y == t0.y;
+        int segment_height = second_half ? t2.y - t1.y : t1.y - t0.y;
+        float alpha = (float)i / total_height;
+        float beta = (float)(i - (second_half ? t1.y - t0.y : 0)) / segment_height;
+        Vec2i A = t0 + (t2 - t0) * alpha;
+        Vec2i B = second_half ? t1 + (t2 - t1) * beta : t0 + (t1 - t0) * beta;
+        if (A.x > B.x) std::swap(A, B);
+        for (int j = A.x; j <= B.x; j++) {
+            painter->setPen(color);
+            painter->drawPoint(j, t0.y + i); // Attention, due to int casts t0.y + i != A.y
+        }
+    }
+}
+
+float modelScale = 2.0;
+
 void Render::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
     QTransform originalTransform = painter->transform();
@@ -59,29 +85,33 @@ void Render::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QW
     transform.rotate(-180);  // Поворот на 90 градусов влево
     painter->setTransform(transform);
 
-    drawCoordinateSystem(painter);
+    // Находим центр экрана
+    int centerX = 0;
+    int centerY = 0;
 
+
+    zbuffer = new int[absX*absY];
+    for (int i=0; i<absX*absY; i++) {
+        zbuffer[i] = std::numeric_limits<int>::min();
+    }
+
+    Vec3f light_dir(0, 0, -1);
     for (int i = 0; i < model.nfaces(); i++) {
         std::vector<int> face = model.face(i);
+        Vec2i screen_coords[3];
+        Vec3f world_coords[3];
         for (int j = 0; j < 3; j++) {
-            Vec3f v0 = model.vert(face[j]);
-            Vec3f v1 = model.vert(face[(j+1)%3]);
-
-            std::cout << "Before Rotation: v0(" << v0.x << ", " << v0.y << "), v1(" << v1.x << ", " << v1.y << ")" << std::endl;
-
-            int x0 = static_cast<int>(v0.x * absX / 2.0);
-            int y0 = static_cast<int>(v0.y * absY / 2.0);
-            int x1 = static_cast<int>(v1.x * absX / 2.0);
-            int y1 = static_cast<int>(v1.y * absY / 2.0);
-
-            // Выводим координаты вершин перед отрисовкой
-            std::cout << "Before Line Drawing: v0(" << v0.x << ", " << v0.y << "), v1(" << v1.x << ", " << v1.y << ")" << std::endl;
-
-            // Отрисовка линии
-            rline(x0, y0, x1, y1, QColor(250, 0, 0), painter);
-
-            // Выводим координаты вершин после отрисовки
-            std::cout << "After Line Drawing: x0(" << x0 << ", " << y0 << "), x1(" << x1 << ", " << y1 << ")" << std::endl;
+            Vec3f v = model.vert(face[j]);
+            // Учитываем масштаб при вычислении экранных координат и центрируем модель
+            screen_coords[j] = Vec2i((v.x + 1.) * absX / 2. * modelScale - (centerX + 150*modelScale) ,
+                                     (v.y + 1.) * absY / 2. * modelScale - (centerY + 150*modelScale));
+            world_coords[j] = v;
+        }
+        Vec3f n = (world_coords[2] - world_coords[0]) ^ (world_coords[1] - world_coords[0]);
+        n.normalize();
+        float intensity = n * light_dir;
+        if (intensity > 0) {
+            triangle(screen_coords[0], screen_coords[1], screen_coords[2], QColor(intensity * 255, intensity * 255, intensity * 255), painter);
         }
     }
 
@@ -102,8 +132,8 @@ void Render::drawCoordinateSystem(QPainter *painter) {
     rline(0, -absY, 0, absY, QColor(0, 255, 0), painter);
     // Отрисовка стрелок оси X
     rline(absX - 10, -5, absX, 0, QColor(0, 0, 255), painter);
-    rline(absX - 10,  5, absX, 0, QColor(0, 0, 255), painter);
+    rline(absX - 10, 5, absX, 0, QColor(0, 0, 255), painter);
     // Отрисовка стрелок оси Y
     rline(-5, absY - 10, 0, absY, QColor(0, 255, 0), painter);
-    rline( 5, absY - 10, 0, absY, QColor(0, 255, 0), painter);
+    rline(5, absY - 10, 0, absY, QColor(0, 255, 0), painter);
 }

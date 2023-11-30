@@ -173,26 +173,11 @@ CMakeFiles/Render_CG_QT.dir/src/render.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Render_CG_QT.dir/src/render.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Education\JavaVsu\Render_CG_QT\Render_CG_QT\Render_CG_QT\src\render.cpp -o CMakeFiles\Render_CG_QT.dir\src\render.cpp.s
 
-CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj: CMakeFiles/Render_CG_QT.dir/flags.make
-CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj: CMakeFiles/Render_CG_QT.dir/includes_CXX.rsp
-CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj: D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/triangle.cpp
-CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj: CMakeFiles/Render_CG_QT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Education\JavaVsu\Render_CG_QT\Render_CG_QT\build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj -MF CMakeFiles\Render_CG_QT.dir\src\triangle.cpp.obj.d -o CMakeFiles\Render_CG_QT.dir\src\triangle.cpp.obj -c D:\Education\JavaVsu\Render_CG_QT\Render_CG_QT\Render_CG_QT\src\triangle.cpp
-
-CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Education\JavaVsu\Render_CG_QT\Render_CG_QT\Render_CG_QT\src\triangle.cpp > CMakeFiles\Render_CG_QT.dir\src\triangle.cpp.i
-
-CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Education\JavaVsu\Render_CG_QT\Render_CG_QT\Render_CG_QT\src\triangle.cpp -o CMakeFiles\Render_CG_QT.dir\src\triangle.cpp.s
-
 CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj: CMakeFiles/Render_CG_QT.dir/flags.make
 CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj: CMakeFiles/Render_CG_QT.dir/includes_CXX.rsp
 CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj: D:/Education/JavaVsu/Render_CG_QT/Render_CG_QT/Render_CG_QT/src/widget.cpp
 CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj: CMakeFiles/Render_CG_QT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Education\JavaVsu\Render_CG_QT\Render_CG_QT\build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Education\JavaVsu\Render_CG_QT\Render_CG_QT\build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj -MF CMakeFiles\Render_CG_QT.dir\src\widget.cpp.obj.d -o CMakeFiles\Render_CG_QT.dir\src\widget.cpp.obj -c D:\Education\JavaVsu\Render_CG_QT\Render_CG_QT\Render_CG_QT\src\widget.cpp
 
 CMakeFiles/Render_CG_QT.dir/src/widget.cpp.i: cmake_force
@@ -212,7 +197,6 @@ Render_CG_QT_OBJECTS = \
 "CMakeFiles/Render_CG_QT.dir/src/mainwindow.cpp.obj" \
 "CMakeFiles/Render_CG_QT.dir/src/model.cpp.obj" \
 "CMakeFiles/Render_CG_QT.dir/src/render.cpp.obj" \
-"CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj" \
 "CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj"
 
 # External object files for target Render_CG_QT
@@ -225,7 +209,6 @@ Render_CG_QT.exe: CMakeFiles/Render_CG_QT.dir/src/main.cpp.obj
 Render_CG_QT.exe: CMakeFiles/Render_CG_QT.dir/src/mainwindow.cpp.obj
 Render_CG_QT.exe: CMakeFiles/Render_CG_QT.dir/src/model.cpp.obj
 Render_CG_QT.exe: CMakeFiles/Render_CG_QT.dir/src/render.cpp.obj
-Render_CG_QT.exe: CMakeFiles/Render_CG_QT.dir/src/triangle.cpp.obj
 Render_CG_QT.exe: CMakeFiles/Render_CG_QT.dir/src/widget.cpp.obj
 Render_CG_QT.exe: CMakeFiles/Render_CG_QT.dir/build.make
 Render_CG_QT.exe: C:/msys64/mingw64/lib/libQt5Widgets.dll.a
@@ -234,7 +217,7 @@ Render_CG_QT.exe: C:/msys64/mingw64/lib/libQt5Core.dll.a
 Render_CG_QT.exe: CMakeFiles/Render_CG_QT.dir/linkLibs.rsp
 Render_CG_QT.exe: CMakeFiles/Render_CG_QT.dir/objects1.rsp
 Render_CG_QT.exe: CMakeFiles/Render_CG_QT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Education\JavaVsu\Render_CG_QT\Render_CG_QT\build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Render_CG_QT.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Education\JavaVsu\Render_CG_QT\Render_CG_QT\build-Render_CG_QT-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Render_CG_QT.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Render_CG_QT.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
