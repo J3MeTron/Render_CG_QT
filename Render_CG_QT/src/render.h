@@ -8,6 +8,7 @@
 #include <QPainter>
 #include <src/line.h>
 #include <limits>
+#include "triangle.h"
 
 
 class Render : public Drawable
