@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
+#include "testline.moc"
+
 project(Render_CG_QT LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -26,6 +28,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #endif()
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
+find_package(Qt5 COMPONENTS Core Gui Test REQUIRED)
 
 file(GLOB SOURCES_SRC "src/*.cpp" "src/*.h")
 
@@ -37,4 +40,8 @@ else()
 
 endif()
 
-target_link_libraries(Render_CG_QT PRIVATE Qt5::Widgets)
+
+
+target_link_libraries(Render_CG_QT PRIVATE
+    Qt5::Widgets)
+
